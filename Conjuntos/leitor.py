@@ -1,7 +1,7 @@
 # Artur Moretti Zimmermann
 
-# ler arquivo e checar numero de operações
-f = open('arquivo3.txt', 'r')
+# ler arquivo e checar numero de operações (para trocar de arquivo lido apenas editar o numero)
+f = open('arquivo1.txt', 'r')
 num = int(f.readline())
 for i in range(num):
     data0 = str(f.readline())
